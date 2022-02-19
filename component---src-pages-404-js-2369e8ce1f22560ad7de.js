@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgiacomocamposampiero=self.webpackChunkgiacomocamposampiero||[]).push([[883],{429:function(n,o,e){function i(){return"undefined"!=typeof window&&(window.location="/"),null}e.r(o),e.d(o,{default:function(){return i}})}}]);
+//# sourceMappingURL=component---src-pages-404-js-2369e8ce1f22560ad7de.js.map

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-projects-index-js",
+    "path": "/projects/",
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"July 23, 2021","title":"Project example","outline":"An interactive installation for the Nelson Atkins Museum of Art."},"id":"b7fdebee-ed97-5f98-a1e0-33f936018d0c","slug":"first-personal-project"},{"frontmatter":{"date":"July 23, 2021","title":"Second example","outline":"An interactive installation for the Nelson Atkins Museum of Art."},"id":"b31df08a-db1b-59e5-a786-9a2b964d6505","slug":"other"}]}},"pageContext":{}},
+    "staticQueryHashes": []}
