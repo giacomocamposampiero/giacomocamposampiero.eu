@@ -1,0 +1,27 @@
+---
+title: "nlpropaganda"
+date: "2022-02-19"
+type: "project"
+category: "personal"
+outline: "A tool for automatic detection and classification of propaganda in news articles."
+link: ""
+repo: "https://github.com/andreakiro/nlpropaganda"
+lang: "allennlp"
+---
+**nlpropaganda** was developed, together with two other students, as course project for the Natural Language Processing course at ETHZ.
+
+This work represents our contribution to the SemEval-2020 Task 11 ([link](https://propaganda.qcri.org/semeval2020-task11/index.html#task)),
+a shared task whose aim was to close the gap between whole-document classification and fine-grained text analysis in the literature.
+
+The project was intended to be a "research-like" project, and therefore we investigated a novel approach to the task. 
+In fact, the classification subtask of the shared task was intended to work with "ideal" spans, i.e. text snippets that were for sure propagandistic arguments, clearly a bold assumption that is almost impossible to be true in a real-life scenario.
+Because of this, we tried to develop a more "general" version of the system, where the classification was perfomed on top of the actual results of the propaganda identificator.
+
+Key ingredients used in this project:
+* fine-tuned language models like BERT, RoBERTa and XLNet for text embedding
+* feed-forward net for both identification and classification of spans
+
+Results obtained for the propaganda identification task were very interesting, placing our group 8th in the permanent leaderboard with an F1-score of 0.46072.
+Classification results are still not definitive, as we're currently working on the improvement of the model!
+
+The final report for the project can be found <a href="/nlpropaganda-paper.pdf">here</a>.
