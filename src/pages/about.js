@@ -13,7 +13,7 @@ const AboutPage = () => {
       </p>
 
       <p>I don't post too much on social media, but you can find me on <a href="https://www.linkedin.com/in/giacomo-camposampiero-7b3038192/">Linkedin</a>, <a href="https://github.com/giacomocamposampiero">Github</a> or reach me via <a href="mailto:giacomo.camposampiero@hotmail.com">mail</a>.</p>
-      <p>This site was made with ♥ by me with Gatsby.js and was inspired by <a href="https://prestonrichey.com">Preston Richey</a> website design. 
+      <p>This site was made with ♥ with Gatsby.js and was inspired by <a href="https://prestonrichey.com">Preston Richey</a> website design. 
 The monospace font is Roboto Mono and the sans-serif is Rubik.</p>
     </Layout>
   )
