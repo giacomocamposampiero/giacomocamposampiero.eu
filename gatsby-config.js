@@ -36,7 +36,7 @@ module.exports = {
           start_url: `/`,
           theme_color: `#ffff`,
           display: `standalone`,
-          icon: `src/images/code.png`,
+          icon: `src/images/favicon.ico`,
         }
       }
     ]
