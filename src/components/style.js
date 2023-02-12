@@ -20,8 +20,10 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.6rem;
     line-height: 1.5em;
     font-size: 1.8rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik', sans-serif;
     word-break: break-word;
+    background-color: white;
+    color: black;
   }
 
   article {
@@ -58,7 +60,7 @@ const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
-    color: blue;
+    color: #808080;
     border-bottom: 2px solid transparent;
 
     &:hover {
@@ -70,6 +72,11 @@ const GlobalStyle = createGlobalStyle`
       border: none;
     }
   }
+
+  .subtit {
+    font-weight: bold;
+  }
+
   
 
 `;

@@ -1,12 +1,27 @@
 import * as React from 'react'
+
+import styled from 'styled-components';
+import loadable from '@loadable/component';
+
 import Layout from '../components/layout'
+const HeadScene = loadable(() => import('./../components/HeadScene'));
 
-const IndexPage = () => {
-  return (
-    <Layout pageTitle="Home Page">
-      Looking for something cool to post here ^-^
-    </Layout>
-  )
-}
+const StyledContainer = styled.div`
+  height: 350px;
+  @media (min-width: 520px) {
+    height: 400px;
+  }
+  @media (min-width: 1400px) {
+    height: 500px;
+  }
+`;
 
-export default IndexPage
+const Index = () => (
+  <Layout>
+    <StyledContainer>
+      <HeadScene />
+    </StyledContainer>
+  </Layout>
+);
+
+export default Index;

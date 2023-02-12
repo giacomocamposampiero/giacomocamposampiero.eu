@@ -1,20 +1,28 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa"
+
 
 const AboutPage = () => {
   return (
     <Layout pageTitle="/about">
+      
       <p>
-        Hi there! My name is Giacomo and I'm a Computer Science master student at ETH Zürich, Switzerland. 
-        My main interests include Natural Language Processing, Machine Learning and Deep Learning.
+        I am a second-year Computer Science MSc student at ETH Zürich, Switzerland.
+        Before that, I completed my undergraduate in Computer Engineering at Università degli Studi di Padova, Italy.
       </p>
       <p>
-        Other than studying and coding, I really enjoy swimming and hiking!
+        My main interests lie in Natural Language Processing, Deep Learning, and AGI. 
+        I am also very fascinated by Bayesian Optimization techniques and Reinforcement Learning, even if my confidence in these topics is more limited.
       </p>
 
-      <p>I don't post too much on social media, but you can find me on <a href="https://www.linkedin.com/in/giacomo-camposampiero-7b3038192/">Linkedin</a>, <a href="https://github.com/giacomocamposampiero">Github</a> or reach me via <a href="mailto:giacomo.camposampiero@hotmail.com">mail</a>.</p>
-      <p>This site was made with ♥ with Gatsby.js and was inspired by <a href="https://prestonrichey.com">Preston Richey</a> website design. 
-The monospace font is Roboto Mono and the sans-serif is Rubik.</p>
+      <p>You can find me on <a href="https://www.linkedin.com/in/giacomo-camposampiero-7b3038192/" > <FaLinkedinIn size="18"/></a>, <a href="https://github.com/giacomocamposampiero" > <FaGithub size="18"/></a> or reach me via <a href="mailto:giacomo.camposampiero@hotmail.com" ><FaEnvelope size="18"/></a>. You can find my current CV  <a href="/developer_cv.pdf/">here</a>.</p>
+
+
+      {/* <img src="/profile.jpeg" alt="Italian Trulli"></img> */}
+
+      <p>The design of this website was inspired by <a href="https://www.linkedin.com/in/giacomo-camposampiero-7b3038192/"> Preston Richey </a> web design. This site was made with ♥ using Gatsby.js.</p>
+
     </Layout>
   )
 }
