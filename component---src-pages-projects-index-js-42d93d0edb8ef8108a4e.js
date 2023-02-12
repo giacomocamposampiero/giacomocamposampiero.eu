@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgiacomocamposampiero=self.webpackChunkgiacomocamposampiero||[]).push([[216],{3432:function(e,t,a){a.r(t);var o=a(7294),r=a(1597),n=a(280);t.default=function(e){var t=e.data;return o.createElement(n.Z,{pageTitle:"My Blog Posts"},t.allMdx.nodes.map((function(e){return o.createElement("article",{key:e.id},o.createElement(r.Link,{to:"/projects/"+e.slug}," ",e.frontmatter.title," ")," : ",e.frontmatter.outline)})))}}}]);
-//# sourceMappingURL=component---src-pages-projects-index-js-42d93d0edb8ef8108a4e.js.map

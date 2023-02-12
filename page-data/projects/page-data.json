@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-projects-index-js",
-    "path": "/projects/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"February 19, 2022","title":"nlpropaganda","outline":"A tool for automatic detection and classification of propaganda in news articles."},"id":"afa511f5-9752-5a52-951d-8603a6cd96dc","slug":"nlpropaganda"}]}},"pageContext":{}},
-    "staticQueryHashes": []}
+{"componentChunkName":"component---src-pages-projects-js","path":"/projects/","result":{"pageContext":{}},"staticQueryHashes":[]}
