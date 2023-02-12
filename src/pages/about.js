@@ -16,12 +16,12 @@ const AboutPage = () => {
         I am also very fascinated by Bayesian Optimization techniques and Reinforcement Learning, even if my confidence in these topics is more limited.
       </p>
 
-      <p>You can find me on <a href="https://www.linkedin.com/in/giacomo-camposampiero-7b3038192/" > <FaLinkedinIn size="18"/></a>, <a href="https://github.com/giacomocamposampiero" > <FaGithub size="18"/></a> or reach me via <a href="mailto:giacomo.camposampiero@hotmail.com" ><FaEnvelope size="18"/></a>. You can find my current CV  <a href="/developer_cv.pdf/">here</a>.</p>
+      <p>You can find me on <a href="https://www.linkedin.com/in/giacomo-camposampiero-7b3038192/" > <FaLinkedinIn size="18"/></a>, <a href="https://github.com/giacomocamposampiero" > <FaGithub size="18"/></a> or reach me via <a href="mailto:giacomo.camposampiero@hotmail.com" ><FaEnvelope size="18"/></a>. You can find my current CV  <a href="/developer_cv.pdf">here</a>.</p>
 
 
       {/* <img src="/profile.jpeg" alt="Italian Trulli"></img> */}
 
-      <p>The design of this website was inspired by <a href="https://www.linkedin.com/in/giacomo-camposampiero-7b3038192/"> Preston Richey </a> web design. This site was made with ♥ using Gatsby.js.</p>
+      <p>The design of this website was inspired by <a href="https://prestonrichey.com"> Preston Richey </a> web design. This site was made with ♥ using Gatsby.js.</p>
 
     </Layout>
   )
