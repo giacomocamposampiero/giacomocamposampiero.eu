@@ -8,8 +8,9 @@ const AboutPage = () => {
     <Layout pageTitle="/about">
       
       <p>
-        I am a second-year Computer Science MSc student at ETH Zürich, Switzerland.
+        I am a second-year Computer Science MSc student at ETH Zürich, CH. 
         Before that, I completed my undergraduate in Computer Engineering at Università degli Studi di Padova, Italy.
+        I am currently doing my Master's thesis at IBM Research Labs in Rüschlikon, CH.
       </p>
       <p>
         My main interests lie in Natural Language Processing, Deep Learning, and AGI. 

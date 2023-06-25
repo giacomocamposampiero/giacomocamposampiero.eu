@@ -7,6 +7,7 @@ const AboutPage = () => {
 
       <p class="subtit">Publications</p>
       <ul>
+        <li>Giacomo Camposampiero, Loïc Houmard, Benjamin Estermann, Joël Mathys, Roger Wattenhofer. 2023. <em>Abstract Visual Reasoning Enabled by Language.</em> In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) [<a href="https://openaccess.thecvf.com/content/CVPR2023W/NFVLR/html/Camposampiero_Abstract_Visual_Reasoning_Enabled_by_Language_CVPRW_2023_paper.html">pdf</a>]</li>
         <li>Giacomo Camposampiero, Quynh Anh Nguyen, and Francesco Di Stefano. 2022. <em>The curious case of Logistic Regression for Italian Dialect Identification.</em> In Proceedings of the Ninth Workshop on NLP for Similar Languages, Varieties and Dialects, International Committee on Computational Linguistics (ICCL) [<a href="https://aclanthology.org/2022.vardial-1.10.pdf">pdf</a>][<a href="https://github.com/giacomocamposampiero/italian-dialects-identification">github</a>]</li>
       </ul> 
 

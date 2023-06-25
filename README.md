@@ -1,4 +1,4 @@
-## giacomocamposampiero.github.io
+## giacomocamposampiero.eu
 
 This repository contains my personal website, made with Gatsby.js.
 
@@ -7,8 +7,8 @@ This repository contains my personal website, made with Gatsby.js.
 To clone and run the website locally, use the following commands.
 
 ```
-git clone https://github.com/giacomocamposampiero/giacomocamposampiero.github.io
-cd giacomocamposampiero.github.io
+git clone https://github.com/giacomocamposampiero/giacomocamposampiero.eu
+cd giacomocamposampiero.eu
 npm install
 gatsby develop
 ```
